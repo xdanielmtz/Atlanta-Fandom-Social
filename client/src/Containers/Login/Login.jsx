@@ -44,7 +44,7 @@ function Login() {
                   name="username"
                   pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
                   class="formInput"
-                  placeholder="Email or Username"
+                  placeholder="Username"
                   value={userName}
                   onChange={(event) => {
                     setUserName(event.target.value);
